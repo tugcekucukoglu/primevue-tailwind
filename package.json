@@ -1,5 +1,6 @@
 {
     "name": "primevue-tailwind",
+    "type": "module",
     "version": "0.8.1",
     "homepage": "https://tailwind.primevue.org/",
     "repository": {

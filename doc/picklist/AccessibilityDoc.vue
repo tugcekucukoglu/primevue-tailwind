@@ -7,7 +7,7 @@
         </p>
         <p>
             Controls buttons are <i>button</i> elements with an <i>aria-label</i> that refers to the <i>aria.moveTop</i>, <i>aria.moveUp</i>, <i>aria.moveDown</i>, <i>aria.moveBottom</i>,<i>aria.moveToTarget</i>, <i>aria.moveAllToTarget</i>,
-            <i>aria.moveToSource</i> and <i>aria.moveAllToSource</i> properties of the <NuxtLink to="/configuration/#locale">locale</NuxtLink> API by default, alternatively you may use <i>moveTopButtonProps</i>, <i>moveUpButtonProps</i>,
+            <i>aria.moveToSource</i> and <i>aria.moveAllToSource</i> properties of the <NuxtLink to="/fileupload">locale</NuxtLink> API by default, alternatively you may use <i>moveTopButtonProps</i>, <i>moveUpButtonProps</i>,
             <i>moveDownButtonProps</i>, <i>moveToButtonProps</i>, <i>moveAllToButtonProps</i>, <i>moveFromButtonProps</i>, <i>moveFromButtonProps</i> <i>moveAllFromButtonProps</i> <i>moveToTargetProps</i>, <i>moveAllToTargetProps</i>,
             <i>moveToSourceProps</i> and <i>moveAllToSourceProps</i> to customize the buttons like overriding the default <i>aria-label</i> attributes.
         </p>
