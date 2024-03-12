@@ -25,7 +25,7 @@ export default {
                     .split('\n')
                     .map((line, i, arr) => {
                         try {
-                            return process?.dev ? line : i === 0 ? line : arr.length - 1 === i ? ' '.repeat(2) + line : ObjectUtils.isEmpty(line) ? currentIndentStr + ' ' : currentIndentStr + line;
+                            return process?.dev ? line : i === 0 ? line : arr.length - 1 === i ? ' '.repeat(2) + line : ObjectUtils.isEmpty(line) ? `\n\n` : currentIndentStr + line;
                         } catch {
                             return i === 0 ? line : arr.length - 1 === i ? ' '.repeat(2) + line : currentIndentStr + line;
                         }
